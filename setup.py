@@ -32,7 +32,7 @@ setup(
     author_email="keithrbt0gmail.com",
     description="A simple wrapper to perform delaunay in cgal with pybind11 and CMake",
     long_description="",
-    install_requires=["pybind11", "cmake"],
+    install_requires=["pybind11", "cmake", "boost"],
     ext_modules=ext_modules,
     # Currently, build_ext only provides an optional "highest supported C++
     # level" feature, but in the future it may provide more features.
