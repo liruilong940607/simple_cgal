@@ -3,7 +3,7 @@ A wrapper to perform 2D/3D Delaunay triangulation using CGAL with pybind11 and C
 
 # Installation
 1. clone the repo: ```git clone --recursive https://github.com/krober10nd/simple_cgal.git```
-2. run: ```pip install .```
+2. run: ```pip install pybind11; pip install .```
 
 
 # How does it work?

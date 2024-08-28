@@ -10,7 +10,8 @@ def build_cgal() -> str:
     # Build CGAL and return the include directory
     os.system(
         "cd cgal; mkdir build; cd build; "
-        "cmake -DCMAKE_INSTALL_PREFIX=. -DCMAKE_BUILD_TYPE=Release ..; make install;"
+        "cmake -DCMAKE_INSTALL_PREFIX=. -DCMAKE_BUILD_TYPE=Release ..; "
+        "make install -j4;"
     )
     return os.path.join(os.getcwd(), "cgal", "build", "include")
 
