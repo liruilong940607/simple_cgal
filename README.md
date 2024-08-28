@@ -1,10 +1,13 @@
 # simple_cgal
 A wrapper to perform 2D/3D Delaunay triangulation using CGAL with pybind11 and CMake. Supports distributed memory parallel Delaunay triangulation using (for now qhull)
 
-# Installation
-1. clone the repo: ```git clone --recursive https://github.com/krober10nd/simple_cgal.git```
-2. run: ```pip install pybind11; pip install .```
+# Dependencies
+Note `boost` and `gmp` are required to exist in the system, which can be installed via `sudo apt-get install libboost-all-dev libgmp3-dev` on Linux.
 
+
+# Installation
+1. clone the repo: ```git clone --recursive https://github.com/liruilong940607/simple_cgal.git```
+2. run: ```pip install pybind11 cmake; pip install .```
 
 # How does it work?
 
